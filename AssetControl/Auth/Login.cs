@@ -1,3 +1,5 @@
+using AssetControl.Repositories.Interfaces;
+
 namespace AssetControl
 {
     public partial class Login : Form
@@ -9,7 +11,15 @@ namespace AssetControl
 
         private void Login_Load(object sender, EventArgs e)
         {
+        }
 
+        private void bnLogin_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void bnCancelar_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

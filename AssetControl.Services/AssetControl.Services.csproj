@@ -6,4 +6,15 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AssetControl.Business\AssetControl.Business.csproj" />
+    <ProjectReference Include="..\AssetControl.Data\AssetControl.Data.csproj" />
+    <ProjectReference Include="..\AssetControl.Helpers\AssetControl.Helpers.csproj" />
+    <ProjectReference Include="..\AssetControl.Repositories\AssetControl.Repositories.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Security\" />
+  </ItemGroup>
+
 </Project>
